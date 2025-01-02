@@ -1,7 +1,6 @@
 [build]
   command = "cd exampleSite && hugo --gc --minify -b $URL"
-  publish = "public"
-  publish: /opt/build/repo/public
+  publish = "exampleSite/public"
   
 [build.environment]
 HUGO_THEMESDIR = "../.."
