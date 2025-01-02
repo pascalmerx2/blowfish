@@ -1,6 +1,5 @@
 [build]
   command = "cd exampleSite && hugo --gc --minify -b $URL"
-  commandOrigin: config
   publish: /opt/build/repo/public
   publishOrigin: config
 
